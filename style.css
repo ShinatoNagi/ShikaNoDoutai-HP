@@ -27,7 +27,7 @@ body {
   object-fit: contain;
 }
 .header-nav-list {
-  margin-top: 10px
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 30px;
