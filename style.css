@@ -274,6 +274,26 @@ body {
   font-size: 18px;
   letter-spacing: 0.5px;
 }
+.gallery-year-heading-menu {
+  position: relative;
+  display: block;
+}
+.gallery-year-heading-menu::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+  transform: translate(-50%, -60%) rotate(-45deg);
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transition: 0.3s ease;
+}
+.gallery-year-heading-open::before {
+  top: -2px;
+  transform: translate(-50%, -40%) rotate(135deg);
+}
 .gallery-year-list {
   display: flex;
   flex-wrap: wrap;
