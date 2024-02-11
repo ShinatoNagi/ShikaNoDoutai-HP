@@ -274,7 +274,7 @@ body {
   margin-bottom: 25px;
 }
 .gallery-year-heading:hover {
-  cursor: default;
+  cursor: pointer;
 }
 .gallery-year-heading-icon img {
   width: 20px;
