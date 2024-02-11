@@ -1,0 +1,3 @@
+jQuery(".gallery-year-heading").on("click", function () {
+  jQuery(this).next().slideToggle();
+});
