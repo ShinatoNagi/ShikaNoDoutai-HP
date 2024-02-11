@@ -241,10 +241,12 @@ body {
   font-size: 18px;
 }
 .profile-sns-item {
+  padding-top: 15px;
+}
+.profile-sns-link {
   display: flex;
   justify-content: left;
   gap: 10px;
-  padding-top: 15px;
 }
 .profile-sns-link img {
   width: 26px;
@@ -437,6 +439,7 @@ body {
     align-items: center;
   }
   .footer-logo {
+    cursor: default;
     font-size: 34px;
   }
   .footer-nav-list {
@@ -493,13 +496,11 @@ body {
     max-width: 500px;
   }
   .profile-sns-heading {
+    cursor: default;
     font-size: 22px;
   }
   .profile-sns-item {
-    display: flex;
-    justify-content: left;
     align-items: center;
-    gap: 10px;
     padding-top: 30px;
   }
   .profile-sns-link img {
